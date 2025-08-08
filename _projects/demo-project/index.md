@@ -24,9 +24,8 @@ Much of these technical specs I will keep secret due to the nature of this proje
 
 
 ### EMAG FEA 
-{% include image-gallery.html images="/ansys2dflu.png" height="400" %}
-{% include image-gallery.html images="/ansys3d.png" height="400" %}
-place the images in project folder/images then update the file path.   
+{% include image-gallery.html images="/ansys2dflu.png, /ansys3d.png" height="400" %}
+ 
 
 
 
