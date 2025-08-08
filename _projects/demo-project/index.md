@@ -9,7 +9,7 @@ skills:
   - EMAG FEA
   - Thermal FEA
 
-main-image: _projects/demo-project/0091.png
+main-image: /0091.png
 ---
 
 ---
