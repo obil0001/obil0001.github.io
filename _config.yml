@@ -7,17 +7,19 @@
 
 # Main Page Setup
 
-title: John Doe's Portfolio # This is what shows up in the tab of the browser
+title: Oliver Bilston's Portfolio # This is what shows up in the tab of the browser
 
 
 
 # Hero Section
-name: John Doe
+name: Oliver Bilston
 headline: headline message
 description: >- # dont remove this line. this will ignore all new lines until the next section
-  Write an awesome intro and discuss your highlights and qualification. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Hi there! I'm Oli, a penultimate year Mechanical Engineering and Business Analytics student at Monash University.
+  I am passionate about travelling, skiing and most importantly, engineering.
+  My expertise lies in 3d design, EMAG FEA, optimisation, validation and project management. 
+  Take a look at some of the projects I have worked on below, and feel free to reach out if you have any questions or would like to have a chat!
+
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
 profile_image: ./assets/images/profile-image/avatar.jpeg
