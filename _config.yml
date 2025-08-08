@@ -33,8 +33,8 @@ resume-url: assets/resume/Resume.pdf # or /assets/resume/resume.pdf
 # Set up external links - this will show up as small icons next to your name.
 
 external-links:    # input only your own url slug. The icons with missing entries will not appear.
-  linkedin: Oliver Bilston   # www.linkedin.com/in/oliver-bilston-5052b6309 
-  github: Oliver Bilston   # https://github.com/obil0001
+  linkedin: www.linkedin.com/in/oliver-bilston-5052b6309 
+  github:  https://github.com/obil0001
   stackoverflow:      # https://stackoverflow.com/users/{your url slug}
   medium:            # https://medium.com/@{your url slug} 
   x-twitter:   # https://x.com/{your url slug} 
