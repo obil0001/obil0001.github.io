@@ -1,16 +1,13 @@
 ---
 layout: post
-title: Super Heavy Booster Catch (Demo Only)
-description:  (I have never been employed by / affiliated with SpaceX. This is for demo use only) 
-    Developing the Super Heavy booster catch project involves designing a robust launch tower with "chopstick" arms, advanced control systems for precise booster alignment, and integrating sophisticated software for real-time trajectory adjustments and structural engineering to handle immense forces.
+title: Custom BLDC Motors
+description:  This project involves the design and manufacture of Brushless DC motors for our competition humanitarian drone design 
+    Developing custom brushless DC motors for our competition plane required heavy amounts of theoretical analysis and simulation as well as data processing and design optimisation
 skills: 
   - Structural analysis
-  - Aerodynamic design
   - Propulsion system integration
-  - Control Algorithem 
-  - Welding
-  - Metal forming
-  - Thermal simulation
+  - EMAG FEA
+  - Thermal FEA
 
 main-image: /project2.jpg
 ---
