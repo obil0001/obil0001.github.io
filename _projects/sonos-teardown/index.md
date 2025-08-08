@@ -13,14 +13,14 @@ main-image: /sys2.png
 
 ---
 # Objectives 
-Create a pair of BLDC motors that were exactly designed for our intended propeller torque spec and required power generation and beat the COTS solution.
-## Outcomes and Contributions 
-This project is still ongoing! But as of August 2025, I have performed extensive theoretical analysis, 2d and 3d EMAG FEA simulations, created Simulink Thermal Models, validated data, and optimized the proposed designs to exactly fit our spec!
+Design retractable landing gear, inside a constrained volume and mass. This system must support a load of 8 kg each during landing phases and had integrate seamlessly into the drone's fuselage during cruise flight mode for aerodynamic efficiency. The landing gear must meet specific criteria, including weight minimization to complement the aircraft's endurance and efficiency goals.
+It is crucial that the gear is compatible with existing MUAS control systems (e.g., interfacing with Mission Planner via Cube Orange) and fits within predetermined volume constraints see (Appendix A). The designed landing gear is required to be built to a flightworthy standard, ensuring reliability and safety through external pre-integration testing. 
+Additionally, the project mandates a modular design approach for the landing gear, enabling easy replacement or modification using standard workshop tools without permanent alterations to the aircraft's fuselage. This requirement underscores the emphasis on versatility and maintainability in the project's objectives.
+
 ### Technical Details
-Much of these technical specs I will keep secret due to the nature of this project being intended for competition. However, I will tell you that this is a 12/8 slot pole BLDC motor that was primarily designed using Ansys Maxwell Software. These motors were designed for the sole purpose of being better than the OTS solutions, and to achieve that I focused on some key metrics, Efficiency and Mass. COTS solutions only currently achieve 400g and efficiencies hovering around 80%, where this solution should see masses of sub 200g and efficiencies approaching 95%.
+Much of this project was done using CAD. However, a number of unique designs were initially put forward for this project before we settled upon the final design, And even after that there was lots of iteration on individual parts to optimize them. The Landing gear was manufactured using a combination of light machining techniques, 3d printing and composites layups.
 
 
 
-
-### EMAG FEA 
-{% include image-gallery.html images="/Fullsys.png, /Foot.png, /leadscrew.png" height="400" %}
+### Landing Gear
+{% include image-gallery.html images="/Fullsys.png, /Foot.png, /leadscrew.png, /assemdrawing.png, /electronics,.png" height="400" %}
