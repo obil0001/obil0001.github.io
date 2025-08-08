@@ -13,7 +13,7 @@ title: Oliver Bilston's Portfolio # This is what shows up in the tab of the brow
 
 # Hero Section
 name: Oliver Bilston
-headline: headline message
+headline: 
 description: >- # dont remove this line. this will ignore all new lines until the next section
   Hi there! I'm Oli, a penultimate year Mechanical Engineering and Business Analytics student at Monash University.
   I am passionate about travelling, skiing and most importantly, engineering.
@@ -27,7 +27,7 @@ profile_image: assets/images/profile-image/avatar.jpg
 
 # Link your resume
 # You can place your resume in assets/resume/{resume.pdf or add external link such as pdf saved in google drive 
-resume-url: assets/resume/resume.pdf # or /assets/resume/resume.pdf
+resume-url: assets/resume/Resume.pdf # or /assets/resume/resume.pdf
 
 
 # Set up external links - this will show up as small icons next to your name.
@@ -82,13 +82,13 @@ formspree-key:   https://formspree.io/f/{8-digit key}
 
 
 # Active theme (Updatethis to switch themes). Make sure to keep the indentation the samne.
-colors: # this is the basic theme
-  text: "#1a1c20"
-  border: "#ddd"
-  link: "#4a76ee"
-  highlight: "#0c0cf2"
-  background: "#ffffff"
-  light_background: "#f3f5fb"
+mint theme:
+  text: "#2c3333"
+  border: "#e0f2ef"
+  link: "#40b3a2"
+  highlight: "#2a9d8f"
+  background: "#f7fbfa"
+  light_background: "#f0f9f7"
 
 # A few examples. 
 basic theme:
