@@ -23,4 +23,4 @@ Much of this project was done using CAD. However, a number of unique designs wer
 
 
 ### Landing Gear
-{% include image-gallery.html images="/Fullsys.png, /Foot.png, /leadscrew.png, /assemdrawing.png, /electronics,.png" height="400" %}
+{% include image-gallery.html images="/Fullsys.png, /Foot.png, /leadscrew.png, /assemdrawing.png, /electronics.jpg" height="400" %}
