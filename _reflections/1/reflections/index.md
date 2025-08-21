@@ -39,6 +39,6 @@ Ultimately this exercise has shifted my mindset, employability isnt a static che
 2. Tomlinson, M. (2017). Forms of graduate capital and their relationship to graduate employability. Education & Training (London), 59(4), 338–352. https://doi.org/10.1108/ET-05-2016-0090
 
 ---
-[Download the full reflection](../assets/persontesting/Big5Results2.pdf)
-[Download the full reflection](../assets/persontesting/Graduate Capital Self assessment.pdf)
-[Download the full reflection](../assets/persontesting/HumanCapital2.pdf)
+[My Big 5 Results](assets/persontesting/Big5Results2.pdf)
+[Graduate Self Capital Assessment](assets/persontesting/GraduateCapitalSelfassessment.pdf)
+[Graduate Capital Scoring](assets/persontesting/HumanCapital2.pdf)
