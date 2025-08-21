@@ -135,6 +135,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  reflections:
+    output: true
+    permalink: /reflections/:path/
 
 
 markdown: kramdown
@@ -155,6 +158,8 @@ plugins:
 
 include:
   - _projects
+  -_reflections
+
 
 
 # Exclude from processing.
