@@ -30,5 +30,15 @@ The impact this analysis has had on my self-understanding has been transformativ
 In terms of career trajectory, this reflection has reinforced my commitment to a path within mechanical or aerospace engineering. My work with UAV's, ASV's and motor design isnt just limited to pursuing engineering excellence, its about solving hard challenges and creating a positive impact. By developing each form of graduate capital, I believe I'm equipping myself to lead projects that solve the bigger problems.
 
 Ultimately this exercise has shifted my mindset, employability isnt a static checklist, but something to embrace as a dynamic and multifaceted journey, a reminder that growth isn't just about my hard skills, but my mindset, relationships and personal identity that will allow those skills to thrive.
+
+
+# References
+
+1. BigFive-Test. (n.d.). About and the Big Five team – Free open-source BigFive persona
+
+2. Tomlinson, M. (2017). Forms of graduate capital and their relationship to graduate employability. Education & Training (London), 59(4), 338–352. https://doi.org/10.1108/ET-05-2016-0090
+
 ---
-<img width="1159" height="3008" alt="image" src="https://github.com/user-attachments/assets/be3702fb-21a7-4f2e-b6b8-c6013dfa1ee0" />
+[Download the full reflection](../assets/persontesting/Big5Results2.pdf)
+[Download the full reflection](../assets/persontesting/Graduate Capital Self assessment.pdf)
+[Download the full reflection](../assets/persontesting/HumanCapital2.pdf)
