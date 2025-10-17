@@ -3,7 +3,7 @@ layout: post
 title: Swot Analysis
 description: SWOT analysis
 
-main-image: \swot.png
+main-image: _reflections/1/Reflections2/swot.png
 ---
 ---
 # Swot Analysis
