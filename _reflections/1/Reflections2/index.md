@@ -3,7 +3,7 @@ layout: post
 title: Swot Analysis
 description: My Self-Reflection after taking the Big 5 personality assessment and critiquing myself against Tomlinsons graduate capital model
 
-main-image: /swot.png
+main-image: _reflections\1\Reflections2\swot.png
 ---
 ---
 # Reflection
