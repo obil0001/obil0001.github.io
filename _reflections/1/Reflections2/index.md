@@ -3,8 +3,9 @@ layout: post
 title: Swot Analysis
 description: SWOT analysis
 
-main-image: _reflections/1/Reflections2/swot.png
+main-image: /_reflections/1/Reflections2/swot.png
 ---
+
 ---
 # Swot Analysis
 S: In the areas relevant to my goal, I believe I have extensively developed certain soft and hard skills much more than some of my peers. Especially related to soft skills I have extensive experience in project management and large team coordination as the acting Chief Operating Officer of Monash Uncrewed Aerial Systems. This has given me extensive insight into managing and keeping on track massive teams with large amounts of finances, stakeholder involvement and other. I also believe i am personable and easy to get along with, something that makes me very easy to work with and for others to express things to me without judgement. I am uniquely positioned in front of lots of other mechanical engineering students in that i am completing a double degree with business analytics. My personal contacts include members of Monash Pearl, Family and Friends in Engineering and many other Sponsors I had the opportunity to interact with.
