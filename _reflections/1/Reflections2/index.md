@@ -3,7 +3,7 @@ layout: post
 title: Swot Analysis
 description: SWOT analysis
 
-main-image: https://obil0001.github.io/_reflections/1/Reflections2/swot.png
+main-image: /Reflections2/swot.png
 ---
 
 ---
