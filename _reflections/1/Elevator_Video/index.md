@@ -1,13 +1,12 @@
 ---
 layout: post
 title: Elevator Pitch Video
-description: My Elevator pitch 
-
-main-image: obil0001.github.io\_reflections\1\Elevator Video\testphoto.png
----
+description: My Elevator pitch
+main-image: /assets/videos/testphoto.png
 ---
 # Reflection
-<video controls playsinline width="100%" poster="obil0001.github.io\_reflections\1\Elevator_Video\testphoto.png">
-  <source src="/Elevator_Video/testvideo.mp4" type="video/mp4">
-  Your browser does not support the video tag. <a href="/assets/videos/elevator.mp4">Download the video</a>.
+
+<video controls playsinline width="100%" poster="{{ '/assets/videos/testphoto.png' | relative_url }}">
+  <source src="{{ '/assets/videos/testvideo.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag. <a href="{{ '/assets/videos/testvideo.mp4' | relative_url }}">Download the video</a>.
 </video>
