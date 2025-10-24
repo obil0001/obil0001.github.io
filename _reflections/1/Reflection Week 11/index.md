@@ -3,7 +3,7 @@ layout: post
 title: Self Reflection Wk 12
 description: Assessment 4 Self Reflection
 
-main-image: project-image.webp
+main-image: /assets/images/Reflections-3.jpg
 ---
 ---
 # Reflection
@@ -37,10 +37,12 @@ This is something that I have actively attempted to do, everything from leaning 
 
 1. Tomlinson, M. (2017). Forms of graduate capital and their relationship to graduate employability. Education & Training (London), 59(4), 338–352. https://doi.org/10.1108/ET-05-2016-0090
 2. Holland, J. L. (1997). Making vocational choices: A theory of vocational personalities and work environments (3rd ed.). Psychological Assessment Resources.
-3. asd
+3. AidaForm. (2025). Portrait Values Questionnaire (PVQ) template*. AidaForm. https://aidaform.com/templates/pvq-test.html
+
+
 
 ---
 [Graduate Self Capital Assessment Beginning of Sem](/assets/persontesting/GraduateCapitalSelfassessment.pdf)
 [Graduate Capital Scoring](/assets/persontesting/HumanCapital2.pdf)
 [Graduate Self Capital Assessment End of Sem](/assets/persontesting/GraduateCapitalCareerSelfAssessment.pdf)
-[Graduate Capital Scoring 2](/assets/persontesting/GraduateCapitalSelfassessment.pdf)
+[Graduate Capital Scoring 2](/assets/persontesting/humancapital3.png)
