@@ -3,7 +3,7 @@ layout: post
 title: Self Reflection Wk 12
 description: Assessment 4 Self Reflection
 
-main-image: /Reflection_Week_11/Reflections-3.jpg
+main-image: /Reflection_Week_11/Reflections_3.jpg
 ---
 ---
 # Reflection

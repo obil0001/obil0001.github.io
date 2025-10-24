@@ -6,7 +6,9 @@ main-image: /Elevator_Video/testphoto.png
 ---
 # Reflection
 
-<video controls playsinline width="100%" poster="{{ '/assets/videos/testphoto.png' | relative_url }}">
-  <source src="{{ '/assets/videos/testvideo.mp4' | relative_url }}" type="video/mp4">
-  Your browser does not support the video tag. <a href="{{ '/assets/videos/testvideo.mp4' | relative_url }}">Download the video</a>.
+
+<video controls playsinline width="100%" poster="{{ '/Elevator_Video/testphoto.png' | relative_url }}">
+  <source src="{{ '/Elevator_Video/testvideo.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+  <a href="{{ '/Elevator_Video/testvideo.mp4' | relative_url }}">Download the video</a>.
 </video>
