@@ -2,7 +2,7 @@
 layout: post
 title: Elevator Pitch Video
 description: My Elevator pitch
-main-image: /assets/videos/testphoto.png
+main-image: /Elevator_Video/testphoto.png
 ---
 # Reflection
 
