@@ -10,9 +10,8 @@ main-image: project-image.webp
 I’m coming to the conclusion of my penultimate year of a double degree in Mechanical Engineering and Business Analytics, I’ve learnt a lot. As a product of doing both of these degrees I’ve had experience in everything from thermodynamics, fluid dynamics, structural mechanics, comprehensive design as well as coding, statistical analysis, machine learning and finally many experiences in marketing, management, finance and brand development honestly just to name a few. This has been invaluable to me, I’ve had experience across such broad and diverse fields and when comparing myself to the average engineering graduate or commerce graduate, I can confidently say that I have developed my skills in a broader sense than most.
 
 Throughout this time studying so many of these varied fields, I believe I have developed a valuable balance between technical ability and strategic/ business oriented thinking. This multidisciplinary approach  I believe has shaped my employability. If we take time to look at Tomlinson’s graduate capitals, especially Human, Social and Identity. I believe that I have cultivated the technical expertise and  professional mindset that will enable me to align with the dynamic and changing needs/ expectations of the modern workforce.
-
-Have a paragraph here about the two graduate capital reflections and scores and changes (300 words)      
-My scores havent changed majorly between my assessment in the start of the semester and now. Previously my Human Capital was a 43/50, which has increased to a 45/50,  My social capital was 39/50 which has increased minorly to 40/50, my cultural was 47/50 which has increased to a 48/50, My identity Capital remained constant at 45/50 and my psychological capital actually seemed to decreased from 46/50 to 44/50! I feel that despite the slight decrease in psychological capital I have grown over this semester and have seen significant positive increase in a range of different aspects over the semester
+   
+My scores havent changed significantly between  my assessment in the start of the semester and now. Previously my Human Capital was a 43/50, which has increased to a 45/50,  My social capital was 39/50 which has increased minorly to 40/50, my cultural was 47/50 which has increased to a 48/50, My identity Capital remained constant at 45/50 and my psychological capital actually seemed to decreased from 46/50 to 44/50! I feel that despite the slight decrease in psychological capital I have grown over this semester and have seen significant positive increase in a range of different aspects over the semester.
 
 I will talk more broadly about what I’ve done well over my entire degree, but BEX3500 in particular has been transformative in a couple aspects. Much of what related to putting myself out there, creating resumes, cover letters etc I have been doing and attempting to perfect for years. What I have reflected on and found is that it really is your network  and who you know. Something that I desperately wanted to be able to avoid, and be able to get my upon my own merit. However, in this current job market, it's no longer enough for employers to just be impressive; it significantly helps if you know someone, and if you actively pursue your individual social capital, that's what leads to places. Resultingly, this is something I’ve actively been implementing and pursuing, from actively interacting at networking events, to maintaining close connections with sponsors, leaning upon friends and family for their industry connections, never before has my professional network been as strong, and this is something i felt has been heavily influenced by this subject. 
 
@@ -36,9 +35,9 @@ This is something that I have actively attempted to do, everything from leaning 
 
 # References
 
-1. BigFive-Test. (n.d.). About and the Big Five team – Free open-source BigFive persona
-
-2. Tomlinson, M. (2017). Forms of graduate capital and their relationship to graduate employability. Education & Training (London), 59(4), 338–352. https://doi.org/10.1108/ET-05-2016-0090
+1. Tomlinson, M. (2017). Forms of graduate capital and their relationship to graduate employability. Education & Training (London), 59(4), 338–352. https://doi.org/10.1108/ET-05-2016-0090
+2. Holland, J. L. (1997). Making vocational choices: A theory of vocational personalities and work environments (3rd ed.). Psychological Assessment Resources.
+3. asd
 
 ---
 [Graduate Self Capital Assessment Beginning of Sem](/assets/persontesting/GraduateCapitalSelfassessment.pdf)
