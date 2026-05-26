@@ -1,44 +1,121 @@
 ---
 layout: post
-title: Plastic Shredder Recycling Machine
-description: Mechanical design and fabrication of a post-consumer plastic waste shredder, focusing on blade geometry optimization, power transmission sizing, and structural integrity for high-throughput material processing
+title: Automatic Plastic Recycling Shredder
+description: This project involved the full mechanical design, analysis, and optimisation of a compact household plastic shredder to convert PET and HDPE waste into ≤5 mm fragments for 3D printing filament reuse.
+    I led the majority of the design work, covering the shaft assembly, blade and spacer system, geartrain, FEA studies, and technical documentation across all analysis sections.
 skills:
-  - Mechanical Design
-  - Structural FEA
-  - Power Transmission
-  - Sustainability Engineering
-  - Manufacturing & Fabrication
-  - Motor Sizing
+  - Mechanical Design & CAD (SolidWorks)
+  - Power Transmission & Gear Design
+  - Shaft & Bearing Analysis (ASME)
+  - Structural & Fatigue FEA (SolidWorks Simulation)
+  - Tolerance & Fit Analysis
+  - Sustainability & Lifecycle Analysis
+  - Technical Reporting
 
 main-image: /shredder_main.png
 ---
 
 ---
 # Objectives
-Engineer and build a robust plastic shredding system capable of processing post-consumer plastic waste into recyclable granulate, minimizing material loss while maximizing throughput and operational reliability. The machine prioritizes sustainability impact through efficient energy consumption and compatibility with diverse plastic feedstock.
+
+This was a university machine design project (MEC3416) completed as part of a team of six. I led the majority of the design and analysis work. The goal was to design a compact, household-scale plastic shredder capable of processing common PET and HDPE waste plastics — such as 375 mL bottles — into fragments no larger than 5 mm in any dimension, suitable for reuse as 3D printing filament.
+
+Key design requirements:
+- Footprint: ≤ L500 × W500 × H400 mm (comparable to a household trash compactor)
+- Throughput: ≥ 6 × 375 mL bottles per minute
+- Output fragment size: ≤ 5 mm in any dimension
+- Prototype unit cost: ≤ $500 AUD per unit (initial 50-unit production run)
+
+The final optimised design achieved a throughput of 7.1 bottles/minute, exceeding the requirement.
 
 ## Outcomes and Contributions
-I led the mechanical design phase and was deeply involved in the fabrication and field testing of the shredder. The prototype successfully processed mixed plastic waste streams (HDPE, LDPE, PP, PET) at rates exceeding 15 kg/hour while maintaining consistent granule sizing. The design was optimized through iterative FEA validation and material testing, resulting in a system that operates reliably with minimal maintenance.
 
-### Problem Statement & Sustainability Context
-Plastic waste represents a critical environmental burden, with global landfill accumulation exceeding 350 million tons annually. This project focused on creating an accessible, locally-deployable recycling solution capable of processing post-consumer plastic at neighborhood scale. By converting waste plastic into consistent granulate, the system enables feedstock for 3D printing, injection molding, and other additive manufacturing workflows, closing the plastic loop.
+I was responsible for the majority of the design and analysis on this project, including: the shaft assembly CAD and engineering drawings, cutting blade and spacer design, tolerance and fit selection, gear design and material verification, the full FEA study suite, and the sustainability analysis. I also led the technical write-up across most sections of the final report.
 
-### Shredding Mechanism & Blade Design
-The core shredder employs a dual-blade counter-rotating architecture where hardened steel blades (HRC 58–62) operate at 200 rpm with a 5 mm cutting clearance. Blade geometry was optimized through CAD simulation and stress analysis to minimize binding while maximizing material throughput. Each blade features a serrated cutting edge with progressive tooth spacing, allowing coarse initial shredding followed by secondary size reduction.
+The full design cycle covered load analysis, motor and geartrain selection, shaft design and fatigue analysis, bearing selection, tolerance analysis, three FEA studies (static, fatigue, and topology optimisation), fastener analysis, and a lifecycle sustainability assessment.
 
-We performed detailed FEA on the blade assembly to predict deflection under peak shear loads (estimated at 8 kN per blade during hard plastic engagement). Critical stress concentrations around blade root geometry were reinforced through chamfering and local thickness increases, reducing peak stress by 35% relative to baseline geometry.
+The final unit cost was reduced from an initial estimate of $1,309 AUD down to $643.76 AUD per unit — significantly undercutting the comparable commercial MSMK2 manual shredder at $3,499.48 AUD.
 
-### Power Transmission & Motor Sizing
-A 2 HP brushless motor drives the blade assembly through a 10:1 spur gear reducer, providing 400 Nm of torque at the blade shaft. Motor selection was validated through power consumption modeling across realistic feedstock densities and plastic types. The gearbox was spec'd for continuous duty with oil bath lubrication, ensuring thermal stability even during extended processing runs.
+### Cost Summary
 
-Shaft design accounts for combined bending and torsional loads, with critical diameter sections determined via von Mises analysis. Bearing selection prioritizes longevity under contaminant ingress, employing sealed deep-groove ball bearings rated for 10,000+ hour service life.
+| Component | Part/Material Cost (AUD) | Manufacturing Cost (AUD) | Total (AUD) |
+|---|---|---|---|
+| Worm Gear | $1.30 | $6.24 | $7.54 |
+| Spacer | $2.60 | $8.78 | $11.36 |
+| Side Blade | $50.00 | $20.16 | $70.16 |
+| Side Spacer | $50.00 | $20.16 | $70.16 |
+| Shaft | $16.21 | $0.64 | $16.84 |
+| Gear 42T | $2.52 | $6.32 | $8.52 |
+| Gear 31T | $2.52 | $8.26 | $10.78 |
+| Front Wall | $20.00 | $33.50 | $53.50 |
+| Blades | $39.60 | $10.20 | $49.80 |
+| Gear 13T | $0.25 | $3.10 | $3.35 |
+| Bearing Housing | $23.68 | — | $23.68 |
+| Bearings | $156.40 | — | $156.40 |
+| Bushing | $0.03 | — | $0.03 |
+| Funnel | $91.32 | — | $91.32 |
+| Lid | $91.32 | — | $91.32 |
+| **Total** | | | **$643.76** |
 
-### Structural Frame & Manufacturing
-The frame is fabricated from 40×40 mm structural steel tube, welded into a rigid box structure with diagonal cross-bracing for torsional stiffness. FEA validation confirmed natural frequency well above the blade running speed, eliminating resonance risk. The entire frame undergoes powder-coat finish for corrosion protection in outdoor deployment scenarios.
+### Cutting Mechanism
 
-Manufacturing employed standard shop processes: CNC plasma cutting for complex bracket geometries, MIG welding for frame assembly, and precision boring for bearing pocket tolerances (H7 basis). This approach ensures easy local fabrication without exotic tooling requirements.
+The shredder uses a staggered dual-shaft cutter configuration. Each alloy steel shaft is 20 mm in diameter and 300 mm long, carrying 10 cutter blades and 20 spacers secured with an H7/k6 transition fit and keyed connection. Only 2 blades per shaft are active at any one time — a deliberate design decision to significantly reduce required torque and make motor sizing feasible. A 5 mm mesh screen below the blades controls output fragment size. The dual-shaft arrangement ensures opposite rotation, producing an inward-pulling shear action on the plastic.
 
-### Performance & Operational Results
-Field trials demonstrated 16 kg/hour throughput on mixed grocery-sourced HDPE/LDPE waste with consistent 5–8 mm granule sizing. Power consumption averages 1.8 kW during active cutting, with idle draw under 200 W. The system successfully processed contaminated plastic (labels, adhesive residue) without jamming, validating the robust blade design. Maintenance intervals exceed 200 operating hours between oil changes.
+Blade geometry:
+- Blade diameter: 100 mm
+- Blade cutting area: 25 mm²
+- Angle of attack: 67°
+- Blade material: Alloy steel | Spacer material: 5052 aluminium
 
-{% include image-gallery.html images="/shredder_cad.png, /shredder_build.png" height="400" %}
+### Motor & Geartrain
+
+Load analysis using PET (shear strength 33 MPa, yield 55 MPa) and HDPE (shear strength 15 MPa, yield 25 MPa) material properties established a required blade shaft torque of 247.5 Nm and a minimum blade shaft speed of ~8.3 RPM. A throughput model based on material removal rate and bottle geometry set the required engagement frequency for 6 bottles/min.
+
+The final geartrain is a three-stage compound system:
+
+| Stage | Components | Ratio |
+|---|---|---|
+| Motor → Worm shaft | 13T and 42T spur gears (module 1.5) | 3.2:1 |
+| Worm gear pair | Worm (acts as 1T) → 31T gear | 31:1 |
+| Worm → Blade shafts | Two 31T spur gears (module 6.35) | 1:1 (counter-rotating) |
+| **Total** | | **99.2:1** |
+
+This reduces 3000 RPM motor speed to ~30 RPM at the blade shafts. A manual crank handle is also incorporated via the worm shaft as a supplementary input.
+
+Selected motor: **Unite MY1020 — 1 kW, 3000 RPM, 48V DC.** The calculated power requirement was 0.84–1 kW (safety factor 1.25–1.50 applied to 673 W theoretical); a 1 kW standard unit was selected for margin.
+
+All gears are alloy steel. Bending stress FOS: 13T = 3.66, 42T = 5.33, 31T = 1.11 — all acceptable.
+
+### Shaft & Bearing Analysis
+
+Shafts were sized to 20 mm diameter per ASME standards. Critical speed: 6,514 RPM — operating speed of ~30 RPM is far below the 50% threshold, eliminating whirl risk. Fatigue analysis confirmed no failure under combined loading.
+
+The worm gear shaft was the critical shaft, receiving the full geartrain load. Key results:
+- Shear: τ_max = 6.58 MPa (large FOS)
+- Bending: σ = 88.99 MPa, Von Mises = 89.72 MPa, SOF = 6.92
+- Fatigue: Se = 249 MPa, SOF = 2.78
+- Buckling under worm axial force (Fa = 9,190 N): σ_cr = 606.2 MPa vs σ_applied = 28.9 MPa — no buckling
+
+Bearing selected: **SKF YAR 204-2F** (deep groove ball bearing with set screw). Dynamic load rating: 12.7 kN, limiting speed: 8,500 RPM, mass: 0.145 kg. Shaft-to-bearing fit: H7/n6 medium interference (press-fit assembly).
+
+### FEA Studies
+
+Three FEA studies were completed in SolidWorks Simulation:
+
+**Lid optimisation:** Static study under 250 N hand load initially showed Von Mises stress of 33.36 MPa — exceeding the 1060 aluminium yield strength. An optimisation study on handle and lid base thickness dimensions (targeting FOS ≥ 2) reduced peak stress to 13.56 MPa and cut lid mass by approximately 50%.
+
+**Gear shaft FEA:** Forces from the spur gear, worm loads, and shaft self-weight were applied at the correct locations. FEA result: 89.24 MPa Von Mises — closely matching the hand-calculated 89.71 MPa, validating the analytical model. Fatigue study: alternating stresses everywhere below the SN curve; no fatigue damage.
+
+**Shaft and blade FEA:** Two-blade, one-shaft assembly modelled under 850 N normal blade forces. Max Von Mises stress: 167 MPa at the blade radius stress concentration, FOS = 3.7. Max displacement: 3.374 mm — attributed to system compliance (bearing flexibility, backlash) rather than material deformation. Fatigue study: no failure under zero-based cyclic loading beyond 10⁶ cycles.
+
+### Safety & Maintenance
+
+The funnelled lid guides plastic into the cutter chamber while fully shielding the user from moving blades. The geartrain and motor are mounted at the rear of the machine. The 5 mm mesh screen and collection drawer are secured with thumbscrews for tool-free removal. The shredder housing sits on the stand frame via locating notches — no fasteners required — allowing the box to be lifted away for full bottom access. Estimated maintenance times: ~10 minutes to clear a blockage, 30–60 minutes for a full blade replacement.
+
+### Assembly & CAD
+
+{% include image-gallery.html images="/shredder_assembly.png, /shredder_blades.png" height="400" %}
+
+### Geartrain & Drawings
+
+{% include image-gallery.html images="/shredder_gears.png, /shredder_cad_exploded.png" height="400" %}
