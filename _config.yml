@@ -136,7 +136,7 @@ collections:
     output: true
     permalink: /projects/:path/
   reflections:
-    output: true
+    output: false
     permalink: /reflections/:path/
 
 
