@@ -15,10 +15,10 @@ title: Oliver Bilston's Portfolio # This is what shows up in the tab of the brow
 name: Oliver Bilston
 headline: 
 description: >- # dont remove this line. this will ignore all new lines until the next section
-  Hi there! I'm Oli, a penultimate year Mechanical Engineering and Business Analytics student at Monash University.
-  I am passionate about travelling, skiing and most importantly, engineering.
-  My expertise lies in 3d design, EMAG FEA, optimisation, validation and project management. 
-  Take a look at some of the projects I have worked on below, and feel free to reach out if you have any questions or would like to have a chat!
+  I'm a final-year Mechanical Engineering and Business Analytics student at Monash University who builds things from scratch. I've designed a custom brushless DC motor from first principles, fabricated a fully autonomous sailing vessel, 
+  and certified airworthiness modifications on real aircraft — all before graduating. 
+  Outside the lab I lead 130+ engineers as COO of Monash Uncrewed Aerial Systems, one of the largest student engineering teams at Monash. 
+  I'm at my best when constraints are tight and the problem hasn't been solved before. Reach out if you'd like to talk
 
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
