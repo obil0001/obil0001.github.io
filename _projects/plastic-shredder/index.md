@@ -12,7 +12,7 @@ skills:
   - Sustainability & Lifecycle Analysis
   - Technical Reporting
 
-main-image: /shredder_main.jpg
+main-image: shredder_main.jpg
 ---
 
 ---
@@ -114,8 +114,8 @@ The funnelled lid guides plastic into the cutter chamber while fully shielding t
 
 ### Assembly & CAD
 
-{% include image-gallery.html images="/shredder_assembly.jpg, /shredder_blades.jpg" height="400" %}
+{% include image-gallery.html images="shredder_assembly.jpg, shredder_blades.jpg" height="400" %}
 
 ### Geartrain & Drawings
 
-{% include image-gallery.html images="/shredder_gears.jpg, /shredder_cad_exploded.jpg" height="400" %}
+{% include image-gallery.html images="shredder_gears.jpg, shredder_cad_exploded.jpg" height="400" %}

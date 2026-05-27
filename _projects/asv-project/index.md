@@ -12,7 +12,7 @@ skills:
   - Autonomous Navigation (ArduPilot)
   - Power Systems Design
 
-main-image: /asv_main.jpg
+main-image: asv_main.jpg
 ---
 
 ---
@@ -107,13 +107,13 @@ For fully energy-neutral continuous operation, approximately 453 W of installed 
 
 ### Assembly & Sea Trial
 
-{% include image-gallery.html images="/asv_assembly.jpg, /asv_sea_trial.jpg" height="400" %}
+{% include image-gallery.html images="asv_assembly.jpg, asv_sea_trial.jpg" height="400" %}
 
 ### Manufacturing
 
 <!-- Add manufacturing photos here when available -->
-{% include image-gallery.html images="/asv_manufacturing_1.jpg, /asv_manufacturing_2.jpg" height="400" %}
+{% include image-gallery.html images="asv_manufacturing_1.jpg, asv_manufacturing_2.jpg" height="400" %}
 
 ### Sail & Keel Detail
 
-{% include image-gallery.html images="/asv_sail.jpg, /asv_keel.jpg" height="400" %}
+{% include image-gallery.html images="asv_sail.jpg, asv_keel.jpg" height="400" %}
