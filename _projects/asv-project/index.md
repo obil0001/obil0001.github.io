@@ -12,7 +12,7 @@ skills:
   - Autonomous Navigation (ArduPilot)
   - Power Systems Design
 
-main-image: asv_main.jpg
+main-image: /asv_main.jpg
 ---
 
 ---
