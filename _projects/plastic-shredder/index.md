@@ -12,7 +12,7 @@ skills:
   - Sustainability & Lifecycle Analysis
   - Technical Reporting
 
-main-image: shredder_main.jpg
+main-image: shredder_assembly.jpg
 ---
 
 ---
