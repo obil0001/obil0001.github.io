@@ -161,6 +161,14 @@ nav .mobile-nav {
   margin-bottom: 24px;
 }
 
+.hero-section .greeting {
+  font-size: 16px;
+  color: var(--link-color);
+  font-weight: 600;
+  margin-bottom: 8px;
+  letter-spacing: 0;
+}
+
 .hero-section .headline {
   font-size: 18px;
   font-weight: 500;
@@ -411,7 +419,80 @@ nav .mobile-nav {
   border: 1px solid var(--border-color);
 }
 
-/* Contact Section */
+/* Resume Section */
+.resume-section {
+  margin: 120px 0;
+}
+
+.resume-section h2 {
+  margin-bottom: 60px;
+}
+
+.resume-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.resume-container > p {
+  text-align: center;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.resume-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 32px;
+  border: 1px solid var(--link-color);
+  border-radius: 0;
+  background-color: var(--link-color);
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.resume-button:hover {
+  background-color: var(--highlight-color);
+  border-color: var(--highlight-color);
+}
+
+.resume-embed {
+  width: 100%;
+  max-width: 900px;
+  border: 1px solid var(--border-color);
+  border-radius: 0;
+  margin-top: 24px;
+  background: white;
+}
+
+.resume-embed iframe {
+  display: block;
+  width: 100%;
+  border: none;
+  background: white;
+}
+
+@media (max-width: 768px) {
+  .resume-section {
+    margin: 80px 0;
+  }
+
+  .resume-embed {
+    max-height: 400px;
+  }
+
+  .resume-embed iframe {
+    height: 400px !important;
+  }
+}
+
 .contact-section {
   margin: 120px 0;
   max-width: 600px;
