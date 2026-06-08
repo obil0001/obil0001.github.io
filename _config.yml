@@ -82,14 +82,14 @@ formspree-key:   https://formspree.io/f/myzpbvdl
 
 
 # Active theme (Update this to switch themes). Make sure to keep the indentation the same.
-professional theme:
-  text: "#1f2937"
-  border: "#e5e7eb"
-  link: "#2563eb"
-  highlight: "#1d4ed8"
-  accent: "#7c3aed"
-  background: "#ffffff"
-  light_background: "#f9fafb"
+minimalist theme:
+  text: "#1a1a1a"
+  border: "#e0e0e0"
+  link: "#0066cc"
+  highlight: "#003d99"
+  accent: "#0066cc"
+  background: "#fafafa"
+  light_background: "#f5f5f5"
 
 # A few examples - feel free to switch between them
 mint theme:

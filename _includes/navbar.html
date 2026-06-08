@@ -1,43 +1,25 @@
-<!-- _includes/nav.html -->
+<!-- Navigation -->
 <nav>
-    <div class="left">
-        <a href="/">{{site.name}}</a>
-    </div>
+  <div class="left">
+    <a href="/">{{ site.name }}</a>
+  </div>
 
-    <!-- Desktop Menu -->
-    <div class="right desktop-nav">
-        <a href="/">
-            <span>Home</span>
-        </a>
-        <a href="/projects/">
-            <span>Projects</span>
-        </a>
-        <a href="/reflection/">
-            <span>Reflections</span>
-        </a>
-        <a href="{{site.resume-url}}" target="_blank" rel="noopener noreferrer">
-            <span>Resume</span>
-        </a>
-    </div>
+  <!-- Desktop Menu -->
+  <div class="right desktop-nav">
+    <a href="/">Home</a>
+    <a href="/projects/">Projects</a>
+    <a href="{{ site.resume-url }}" target="_blank" rel="noopener">Resume</a>
+  </div>
 
-    <!-- Mobile Menu Button -->
-    <button class="menu-toggle" aria-label="Toggle menu">
-        <i class="fa fa-bars fa-2x"></i>
-    </button>
+  <!-- Mobile Menu Button -->
+  <button class="menu-toggle" aria-label="Toggle menu">
+    <i class="fa-solid fa-bars"></i>
+  </button>
 
-    <!-- Mobile Menu -->
-    <div class="mobile-nav">
-        <a href="/">
-            <span>Home</span>
-        </a>
-        <a href="/projects/">
-            <span>Projects</span>
-        </a>
-        <a href="/reflection/">
-            <span>Reflections</span>
-        </a>
-        <a href="{{site.resume-url}}" target="_blank" rel="noopener noreferrer">
-            <span>Resume</span>
-        </a>
-    </div>
+  <!-- Mobile Menu -->
+  <div class="mobile-nav">
+    <a href="/">Home</a>
+    <a href="/projects/">Projects</a>
+    <a href="{{ site.resume-url }}" target="_blank" rel="noopener">Resume</a>
+  </div>
 </nav>
